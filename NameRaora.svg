@@ -1,10 +1,11 @@
 <svg xmlns='http://www.w3.org/2000/svg'>
-<defs>
-    <style type="text/css">@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Kosugi+Maru&display=swap');</style>
-</defs>
-
-<style>
-   text{font-family: Kosugi Maru;font-size:16px; fill: %23f2b5cb;display: inline-block;animation: float 3s ease-in-out infinite;}
+    <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Kosugi Maru";
+        src: url("https://fonts.googleapis.com/css2?family=DotGothic16&family=Kosugi+Maru");                      
+      }
+   text{font-size:16px; fill: %23f2b5cb;display: inline-block;animation: float 3s ease-in-out infinite;}
 @keyframes float {
    from {
         transform: translate%280, -14px%29; }
@@ -14,7 +15,8 @@
         transform: translate%280, -14px%29; }
 }
 </style>
-<text x='2' y='30' text-anchor='start' stroke='%23cf839f' stroke-width='2' style='paint-order: stroke fill;'>
+         </defs>
+<text x='2' y='30' text-anchor='start' stroke='%23cf839f' stroke-width='2' style='paint-order: stroke fill; font-family="Kosugi Maru">
 じゅり
 </text>
 </svg>
