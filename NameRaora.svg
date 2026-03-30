@@ -1,0 +1,16 @@
+<svg xmlns='http://www.w3.org/2000/svg'>
+<style>
+/*<![CDATA[*/text{font-family: Kosugi Maru;font-size:16px; fill: %23f2b5cb;display: inline-block;animation: float 3s ease-in-out infinite;}
+@keyframes float {
+   from {
+        transform: translate%280, -14px%29; }
+    65% {
+        transform: translate%280, -8px%29; }
+    to {
+        transform: translate%280, -14px%29; }
+}/*]]>*/
+</style>
+<text x='2' y='30' text-anchor='start' stroke='%23cf839f' stroke-width='2' style='paint-order: stroke fill;'>
+じゅり
+</text>
+</svg>
